@@ -2,7 +2,6 @@
 // @name           NUS Proxy Bookmarklet
 // @namespace      nus-proxy-bookmarklet
 // @include        *
-// @match          *
 // @grant          none
 // @version        0.0.1
 // @description    Adds "Open with NUS Proxy Bookmarklet" in context menu on all
