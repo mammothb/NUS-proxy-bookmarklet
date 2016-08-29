@@ -4,7 +4,7 @@
 // @include        *
 // @match          <all_urls>
 // @grant          none
-// @version        0.0.1
+// @version        0.1.1
 // @description    Adds "Open with NUS Proxy Bookmarklet" in context menu on all
 //                 sites
 // ==/UserScript==
@@ -56,6 +56,5 @@ function initMenu(aEvent) {
 
 function useBookmarklet(aEvent) {
   // Executed when user click on menuitem
-  body.appendChild(document.createElement('script')).src=
-      'http://lgdata.s3-website-us-east-1.amazonaws.com/docs/1035/217629/proxywithga.js';
+  location.href = 'http://libproxy1.nus.edu.sg/login?url=' + location.href;
 }
